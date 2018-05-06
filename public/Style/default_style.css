@@ -1,0 +1,41 @@
+.popup {
+	height: 70%;
+	width: 50%;
+	background-color: pink;
+}
+
+.popup_bg {
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+	opacity: 0.8;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	font-family: arial;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+}
+
+input[type="email"] {
+	height: 3rem;
+    width: 20rem;
+}
+
+input[type="submit"] {
+	margin: 2rem;
+}
+
+span {
+	display: block;
+}
